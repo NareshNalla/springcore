@@ -1,0 +1,7 @@
+package com.vidvaan.before.spring;
+
+public class NetworkUtilizer {
+	public static void main(String[] args) {
+		System.out.println("Airtel servcies using");
+	}
+}

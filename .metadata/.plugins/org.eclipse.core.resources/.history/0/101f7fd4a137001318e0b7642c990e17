@@ -1,0 +1,9 @@
+public class Utilizer {
+	public static void main(String[] args) {
+		DBProvider dbProvider = MyContainer.getBean("");
+		dbProvider.getConnection();
+		dbProvider.getstatment();
+		dbProvider.getCallableStatement();
+		dbProvider.getResultSet();
+	}
+}

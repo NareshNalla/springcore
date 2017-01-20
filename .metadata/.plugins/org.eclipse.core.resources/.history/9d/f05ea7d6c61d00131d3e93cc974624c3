@@ -1,0 +1,9 @@
+public class MysqlProvider {
+	public String getMysqlConnection() {
+		return "this is mysql connection";
+	}
+
+	public void getMysqlService1() {
+
+	}
+}

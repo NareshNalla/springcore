@@ -1,0 +1,20 @@
+import java.io.IOException;
+import java.util.Properties;
+
+public class MyContainer {
+	private static Properties properties = new Properties();
+	static{
+		try {
+			properties.load(MyContainer.class.getClassLoader().getResourceAsStream("myNeeds.properties"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static Object getBean(String providerName) {
+		String providerClassName = properties.getProperty(providerName);
+		Class c =  Class.forName(providerClassName);
+		Object o = c.newInstance();
+		return o;
+	}
+}

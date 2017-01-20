@@ -1,0 +1,5 @@
+package com.vidvaan.provider;
+
+public class OracleProvider {
+
+}

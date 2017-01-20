@@ -1,0 +1,6 @@
+public class MyContainer {
+
+	public static Object getBean(String providerName) {
+
+	}
+}

@@ -1,0 +1,11 @@
+package com.vidvaan.before.spring;
+
+public class IdeaProvider {
+	public void ideaCall() {
+		System.out.println("idea call");
+	}
+
+	public void ideaSMS() {
+		System.out.println("idea SMS");
+	}
+}

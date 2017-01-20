@@ -1,0 +1,21 @@
+package com.vidvaan.spring.controller;
+
+import com.vidvaan.spring.service.Service;
+
+public class ControllerImpl implements Controller {
+	private Service service;
+	
+	public void setService(Service service) {
+		this.service = service;
+	}
+	
+	public ControllerImpl() {
+		System.out.println("ControllerImpl()");
+	}
+
+	@Override
+	public void controllerMethod() {
+		System.out.println("ControllerImpl.controllerMethod()");
+
+	}
+}

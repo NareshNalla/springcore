@@ -1,0 +1,2 @@
+dbProvider=OracleProvider
+jmsProvider=TibcoProvider

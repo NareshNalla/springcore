@@ -1,0 +1,4 @@
+dbProvider=OracleProvider
+emailProvider=OracleProvider
+smsProvider=OracleProvider
+jmsProvider=OracleProvider

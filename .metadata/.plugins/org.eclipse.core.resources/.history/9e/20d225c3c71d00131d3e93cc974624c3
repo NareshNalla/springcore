@@ -1,0 +1,8 @@
+
+public class MyContainer {
+
+	public Object getBean(String key){
+		
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.vidvaan.spring.dao;
+
+public class DAOImpl {
+
+}

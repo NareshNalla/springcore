@@ -1,0 +1,13 @@
+package com.vidvaan.spring.controller;
+
+public class ControllerImpl implements Controller {
+	public ControllerImpl() {
+		System.out.println("ControllerImpl()");
+	}
+
+	@Override
+	public void controllerMethod() {
+		System.out.println("ControllerImpl.controllerMethod()");
+
+	}
+}

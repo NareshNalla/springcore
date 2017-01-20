@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;AfterSpring/src&apos;&#x0D;&#x0A;- Original project: &apos;beforeSpring&apos;&#x0D;&#x0A;- Destination element: &apos;AfterSpring/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Utilizer.java&#x0D;&#x0A;     OracleProvider.java&#x0D;&#x0A;     MyContainer.java&#x0D;&#x0A;     DBProvider.java&#x0D;&#x0A;     MysqlProivder.java" description="Copy compilation units" destination="=AfterSpring/src" element1="/src&lt;{Utilizer.java" element2="/src&lt;{OracleProvider.java" element3="/src&lt;{MyContainer.java" element4="/src&lt;{DBProvider.java" element5="/src&lt;{MysqlProivder.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1382065907006" units="5" version="1.0"/>
+</session>

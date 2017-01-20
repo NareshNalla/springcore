@@ -1,0 +1,38 @@
+package com.sekharit.spring.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+public class EmployeeService {
+
+	@Autowired
+	private EmployeeDAO employeeDAO;
+
+	public EmployeeService() {
+		System.out.println("EmployeeService()");
+	}
+
+	@Autowired
+	public EmployeeService(EmployeeDAO employeeDAO) {
+		System.out.println("EmployeeService(EmployeeDAO employeeDAO)");
+		this.employeeDAO = employeeDAO;
+	}
+	
+	public EmployeeService(Demo demo) {
+		System.out.println("EmployeeService(Demo demo)");
+	}
+
+	
+	@Autowired
+	public void setEmployeeDAO(EmployeeDAO employeeDAO) {
+		System.out
+				.println("EmployeeService.setEmployeeDAO(EmployeeDAO employeeDAO)");
+		this.employeeDAO = employeeDAO;
+	}
+
+	@Autowired
+	public void serviceMethod(Demo demo) {
+		System.out.println("EmployeeService.serviceMethod()");
+		employeeDAO.daoMethod();
+	}
+}

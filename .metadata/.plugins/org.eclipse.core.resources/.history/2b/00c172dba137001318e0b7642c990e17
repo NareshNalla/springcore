@@ -1,0 +1,3 @@
+dbProvider=OracleProvider
+jmsProvider=TibcoProvider
+jtsProiver=WebloigProvider

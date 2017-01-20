@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean class="java.lang.Class" factory-method="forName">
+		<constructor-arg value="oracle.jdbc.driver.OracleDriver"></constructor-arg>
+	</bean>
+
+	<bean id="connection" class="java.sql.DriverManager"
+		factory-method="getConnection">
+		<constructor-arg value="jdbc:oracle:thin:@localhost:1521:XE" />
+		<constructor-arg value="system" />
+		<constructor-arg value="tiger" />
+	</bean>
+
+	<bean id="statement" factory-bean="connection" factory-method="createStatement"></bean>
+
+	<bean id="result" factory-bean="statement" factory-method="executeUpdate">
+		<constructor-arg value="UPDATE ACCOUNT SET BALANCE=BALANCE+1000" />
+	</bean>
+
+</beans>

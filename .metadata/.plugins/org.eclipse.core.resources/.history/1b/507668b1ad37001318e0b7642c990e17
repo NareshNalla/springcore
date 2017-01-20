@@ -1,0 +1,13 @@
+package com.vidvaan.spring.injection;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class InjectionTest {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("com/vidvaan/spring/injection/spring.xml");
+		
+		GreetingBean gb = (GreetingBean)context.getBean("gb");
+		gb.displayInjectedValue();
+	}
+}

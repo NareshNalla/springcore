@@ -1,0 +1,27 @@
+package com.vidvaan.before.spring;
+
+public class NetworkUtilizer {
+	public static void main(String[] args) {
+
+		NetworkProvider provider = (NetworkProvider)ThirdParty.getBean("networkProvider");
+		provider.call();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+		provider.sms();
+
+	}
+}

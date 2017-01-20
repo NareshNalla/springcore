@@ -1,0 +1,5 @@
+package com.vidvaan.spring.test;
+
+public class InjectionTest {
+
+}

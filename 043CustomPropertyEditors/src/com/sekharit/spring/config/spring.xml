@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<!-- 
+	<bean id="cn" class="com.sekharit.spring.bean.ContactNumber">
+		<property name="countryCode" value="91"></property>
+		<property name="stateCode" value="040"></property>
+		<property name="number" value="262236"></property>
+	</bean>
+ -->
+	<bean id="employee" class="com.sekharit.spring.bean.Employee">
+		<property name="eno" value="1001"></property>
+		<property name="name" value="sekhar"></property>
+		<property name="salary" value="3456.90"></property>
+		<property name="contactNumber" value="91=040=262236"></property>
+		<property name="dateOfBirth" value="85-06/12"></property>
+	</bean>
+
+	<bean id="cne" class="com.sekharit.spring.bean.ContactNumberEditor">
+		<property name="seperator" value="="></property>
+	</bean>
+
+	<bean id="cde"
+		class="org.springframework.beans.propertyeditors.CustomDateEditor">
+		<constructor-arg ref="sdf"></constructor-arg>
+		<constructor-arg value="true"></constructor-arg>
+	</bean>
+
+	<bean id="sdf" class="java.text.SimpleDateFormat">
+		<constructor-arg value="yy-MM/dd"></constructor-arg>
+	</bean>
+
+	<bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+		<property name="customEditors">
+			<map>
+				<entry key="com.sekharit.spring.bean.ContactNumber" value-ref="cne"></entry>
+				<entry key="java.util.Date" value-ref="cde"></entry>
+			</map>
+		</property>
+	</bean>
+
+</beans>

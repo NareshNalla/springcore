@@ -1,0 +1,14 @@
+package com.vidvaan.demo;
+
+import com.vidvaan.bean.Employee;
+
+public class InjectionTest {
+	public static void main(String[] args) {
+		Employee employee = new Employee(1001, "sekhar", 1234.56);
+		
+//		employee.setEname("sekhar");
+//		employee.setEno(1001);
+//		employee.setSalary(1234.56);
+		System.out.println(employee.toString());
+	}
+}

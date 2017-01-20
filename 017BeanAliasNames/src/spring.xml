@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!--  Here mb1, mb2, mb3 are alias names for the bean 'messageBean' -->
+	<bean id="messageBean" name="mb1,mb2,mb3" class="com.sekharit.spring.MessageBean">
+		<property name="message" value="Welcome to Spring applications"></property>
+	</bean>
+	
+	<!--  Here again we are defining alias names for the bean 'messageBean' -->
+	<alias name="messageBean" alias="mb4"/>
+	<alias name="messageBean" alias="mb5"/>
+
+</beans>
+
+
+
+<!-- 
+Key notes on id, name attributes : 
+	“id” attribute is used to define the reference, to configured spring bean.
+	“id” attribute value should be unique, whereas “name” no need to be uniqure. 
+	“id” value won’t allow special characters (like /, _,*…etc). Whereas “name” attribute allows any kind of special characters.
+	The “name” attribute is useful when we develop spring MVC based web applications, because as we know every URL should start with “/”.  So at that time we need to configure a spring bean whose reference should start with “/” character. 
+	Generally most of the cases we use id attribute only but not name attribute.
+ -->

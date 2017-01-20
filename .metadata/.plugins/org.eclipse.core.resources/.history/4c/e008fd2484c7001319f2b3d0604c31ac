@@ -1,0 +1,10 @@
+package com.vidvaan.before.spring;
+
+public class NetworkUtilizer {
+	public static void main(String[] args) {
+		
+		IdeaProvider provider = new IdeaProvider();
+		provider.ideaCall();
+		provider.ideaSMS();
+	}
+}

@@ -1,0 +1,8 @@
+package com.vidvaan.before.spring;
+
+public class ThirdParty {
+
+	static{
+		
+	}
+}

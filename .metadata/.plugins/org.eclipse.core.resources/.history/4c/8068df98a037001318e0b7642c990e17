@@ -1,0 +1,9 @@
+public class Utilizer {
+	public static void main(String[] args) {
+		DBProvider dbProvider = new OracleProvider();
+		dbProvider.getConnection();
+		dbProvider.getstatment();
+		dbProvider.getCallableStatement()
+		dbProvider.getResultSet();
+	}
+}

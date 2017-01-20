@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="emp1" class="com.sekharit.spring.bean.Employee">
+		<property name="eno" value="1001" />
+		<property name="ename" value="sekhar" />
+		<property name="sal" value="2500" />
+		<property name="desig" value="teammember" />
+		<property name="hno" value="1-52-A" />
+		<property name="city" value="Gunipalli" />
+	</bean>
+
+	<bean id="emp2" class="com.sekharit.spring.bean.Employee">
+		<property name="eno" value="1002" />
+		<property name="ename" value="somu" />
+		<property name="sal" value="2500" />
+		<property name="desig" value="teammember" />
+		<property name="hno" value="1-52-B" />
+		<property name="city" value="Gunipalli" />
+	</bean>
+
+	<bean id="emp3" class="com.sekharit.spring.bean.Employee">
+		<property name="eno" value="1003" />
+		<property name="ename" value="sekharreddy" />
+		<property name="sal" value="2500" />
+		<property name="desig" value="teammember" />
+		<property name="hno" value="1-52-B" />
+		<property name="city" value="Gunipalli" />
+	</bean>
+
+</beans>

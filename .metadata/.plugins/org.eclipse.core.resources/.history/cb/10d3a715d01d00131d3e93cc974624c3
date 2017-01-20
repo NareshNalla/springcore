@@ -1,0 +1,11 @@
+package com.vidvaan.demo;
+
+import com.vidvaan.bean.Employee;
+
+public class InjectionTest {
+	public static void main(String[] args) {
+	
+		
+		
+	}
+}

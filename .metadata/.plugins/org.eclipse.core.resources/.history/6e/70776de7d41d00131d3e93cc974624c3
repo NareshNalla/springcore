@@ -1,0 +1,14 @@
+package com.vidvaan.spring.service;
+
+public class ServcieImpl implements Service {
+
+	public ServcieImpl() {
+		System.out.println("ServcieImpl() ");
+	}
+
+	@Override
+	public void serviceMethod() {
+		System.out.println("ServcieImpl.serviceMethod()");
+
+	}
+}

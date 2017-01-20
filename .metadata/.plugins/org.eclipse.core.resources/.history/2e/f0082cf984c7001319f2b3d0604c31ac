@@ -1,0 +1,16 @@
+package com.vidvaan.before.spring;
+
+import java.io.IOException;
+import java.util.Properties;
+
+public class ThirdParty {
+
+	private static Properties properties = new Properties();
+	static{
+		try {
+			properties.load(ThirdParty.class.getClassLoader().getResourceAsStream("com/vidvaan/before/spring/need.properties"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

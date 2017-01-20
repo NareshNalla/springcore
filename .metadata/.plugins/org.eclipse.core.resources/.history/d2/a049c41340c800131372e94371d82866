@@ -1,0 +1,24 @@
+package com.sekharit.spring.bean;
+
+public class EmployeeService {
+	private EmployeeDAO employeeDAO123;
+
+	public EmployeeService() {
+		System.out.println("EmployeeService()");
+	}
+
+	public EmployeeService(EmployeeDAO employeeDAO) {
+		System.out.println("EmployeeService(EmployeeDAO employeeDAO)");
+		this.employeeDAO123 = employeeDAO;
+	}
+
+	public void setEmployeeDAO(EmployeeDAO employeeDAO) {
+		System.out.println("EmployeeService.setEmployeeDAO(EmployeeDAO employeeDAO)");
+		this.employeeDAO123 = employeeDAO;
+	}
+
+	public void serviceMethod() {
+		System.out.println("EmployeeService.serviceMethod()");
+		employeeDAO123.daoMethod();
+	}
+}

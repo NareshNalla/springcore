@@ -1,0 +1,28 @@
+package com.sekharit.spring.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.ImportResource;
+import org.springframework.context.annotation.Scope;
+
+import com.sekharit.spring.bean.EmployeeDAO;
+import com.sekharit.spring.bean.EmployeeService;
+
+@Configuration
+public class ApplicationConfig {
+
+	@Bean(initMethod = "init")
+	@Scope("singleton")
+	// @Lazy
+	public EmployeeDAO empDAO() {
+		return new EmployeeDAO();
+	}
+
+	@Bean
+	@Scope("singleton")
+	public EmployeeService empService() {
+		return new EmployeeService();
+	}
+
+}

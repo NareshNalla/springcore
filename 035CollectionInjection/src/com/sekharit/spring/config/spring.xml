@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="s1" class="com.sekharit.spring.bean.Student">
+		<property name="sno" value="1001"></property>
+		<property name="sname" value="sekhar"></property>
+		<property name="fee" value="2500"></property>
+	</bean>
+
+	<bean id="s2" class="com.sekharit.spring.bean.Student">
+		<property name="sno" value="1002"></property>
+		<property name="sname" value="ysreddy"></property>
+		<property name="fee" value="5900"></property>
+	</bean>
+
+	<bean id="s3" class="com.sekharit.spring.bean.Student">
+		<property name="sno" value="1003"></property>
+		<property name="sname" value="sekharreddy"></property>
+		<property name="fee" value="4200"></property>
+	</bean>
+
+	<bean id="college" class="com.sekharit.spring.bean.College">
+		<property name="collegeName" value="SriSaiRam college"></property>
+		<property name="trainersList">
+			<list>
+				<value>sekhar</value>
+				<value>lnrao</value>
+				<value>narayana</value>
+			</list>
+		</property>
+		<property name="studentsList">
+			<list>
+				<ref bean="s1" />
+				<ref bean="s2" />
+				<ref bean="s3" />
+			</list>
+		</property>
+
+		<property name="trainersSet">
+			<set>
+				<value>sekhar</value>
+				<value>lnrao</value>
+				<value>narayana</value>
+			</set>
+		</property>
+		<property name="studentsSet">
+			<set>
+				<ref bean="s1" />
+				<ref bean="s2" />
+				<ref bean="s3" />
+			</set>
+		</property>
+		
+		<property name="trainersArray">
+			<!--
+				<list> 
+					<value>sekhar</value> 
+					<value>lnrao</value>
+					<value>narayana</value> 
+				</list>
+			-->
+			<set>
+				<value>sekhar</value>
+				<value>lnrao</value>
+				<value>narayana</value>
+			</set>
+		</property>
+		<property name="studentsArray">
+			<!--
+				<list> 
+					<ref bean="s1" /> 
+					<ref bean="s2" /> 
+					<ref bean="s3" /> 
+				</list>
+			-->
+			<set>
+				<ref bean="s1" />
+				<ref bean="s2" />
+				<ref bean="s3" />
+			</set>
+		</property>
+		
+		<property name="trainersMap">
+			<map>
+				<entry key="1001" value="sekhar"></entry>
+				<entry key="1002" >
+					<value>lnrao</value>
+				</entry>
+				<entry key="1003">
+					<value>narayana</value>
+				</entry>
+			</map>
+		</property>
+		<property name="studentsMap">
+			<map>
+				<entry key="1111" value-ref="s1" ></entry>
+				<entry key="1112" >
+					<ref bean="s2" />
+				</entry>
+				<entry  key="1113" >
+					<ref bean="s3" />
+				</entry>
+			</map>
+		</property>	
+		
+		<property name="dbProperties">
+			<props>
+				<prop key="driverclass">oracle.jdbc.driver.OracleDriver</prop>
+				<prop key="username">scott</prop>
+				<prop key="password">tiger</prop>
+				<prop key="url">jdbc:oracle:thin:@localhsot:1521:server</prop>
+			</props>
+		</property>
+	</bean>
+
+</beans>

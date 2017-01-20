@@ -1,0 +1,28 @@
+package com.vidvaan.spring.dao;
+
+public class DAOImpl implements DAO {
+
+	public DAOImpl() {
+		System.out.println("DAOImpl()");
+	}
+	private String userName;
+	private String password;
+
+	public void setUserName(String userName) {
+		System.out.println("DAOImpl.setUserName(String userName)");
+		this.userName = userName;
+	}
+
+	public void setPassword(String password) {
+		System.out.println("DAOImpl.setPassword(String password)");
+		this.password = password;
+	}
+
+	@Override
+	public void daoMethod() {
+		System.out.println("Connecting to database with username : " + userName
+				+ " password : " + password);
+		System.out.println("DAOImpl.daoMethod()");
+
+	}
+}

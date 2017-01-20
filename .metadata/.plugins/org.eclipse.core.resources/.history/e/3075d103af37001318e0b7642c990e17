@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+<!-- 	
+	<bean id="gb" class="com.vidvaan.spring.injection.GreetingBean" >
+		<constructor-arg value="sekhar" />
+	</bean> -->
+	
+	
+	
+	
+	
+	<bean id="gb" class="com.vidvaan.spring.injection.GreetingBean">
+		<property name="myOwnStyle" value="vdivaan" />
+		<property name="myAge" value="27" ></property>
+	</bean>
+	
+	
+	
+	<!-- 
+	<bean id="emp" class="com.vidvaan.spring.injection.Employee" >
+		<property name="eno" value="1001" ></property>
+		<property name="name" value="sekhar" ></property>
+		<property name="balance" value="1234" ></property>
+		<property name="address" ref="addr" ></property>
+	</bean>
+	
+	
+	<bean id="addr" class="com.vidvaan.spring.injection.Address" >
+		<property name="city" value="hyderabd" ></property>
+		<property name="state" value="AP" ></property>
+	</bean>
+	 -->
+	
+</beans>

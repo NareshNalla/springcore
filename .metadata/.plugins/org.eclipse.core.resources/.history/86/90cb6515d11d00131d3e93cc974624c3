@@ -1,0 +1,12 @@
+package com.vidvaan.bean;
+
+public class Employee {
+	private String name;
+	private Address address;
+	
+	public Employee() {
+		System.out.println("Employee()");
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+public class Utilizer {
+	public static void main(String[] args) {
+		DBProvider dbProvider = new OracleProvider();
+		dbProvider.getAnotherThing();
+		dbProvider.getSomething();
+		String con = dbProvider.getConnection();
+		System.out.println(con);
+
+	}
+}

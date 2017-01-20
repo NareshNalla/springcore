@@ -1,0 +1,14 @@
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Utilizer {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("");
+		
+		DBProvider dbProvider = (DBProvider) MyContainer.getBean("dbProvider");
+		dbProvider.getConnection();
+		dbProvider.getstatment();
+		dbProvider.getCallableStatement();
+		dbProvider.getResultSet();
+	}
+}

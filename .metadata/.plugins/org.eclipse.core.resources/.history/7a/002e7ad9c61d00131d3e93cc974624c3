@@ -1,0 +1,8 @@
+public class OracleProvider {
+	public String getOracleConnection() {
+		return "this is oracle connection";
+	}
+	public void getOracleService1(){
+		
+	}
+}

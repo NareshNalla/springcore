@@ -1,0 +1,11 @@
+package com.vidvaan.before.spring;
+
+import java.util.Properties;
+
+public class ThirdParty {
+
+	private static Properties properties = new Properties();
+	static{
+		properties.load("");
+	}
+}

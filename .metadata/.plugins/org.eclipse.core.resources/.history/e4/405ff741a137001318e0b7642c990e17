@@ -1,0 +1,13 @@
+import java.util.Properties;
+
+public class MyContainer {
+
+	static{
+		Properties properties = new Properties();
+		properties.load(MyContainer.class.getClassLoader().getResourceAsStream(""));
+	}
+	
+	public static Object getBean(String providerName) {
+
+	}
+}

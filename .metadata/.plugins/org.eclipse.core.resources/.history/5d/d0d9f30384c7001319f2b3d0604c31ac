@@ -1,0 +1,12 @@
+package com.vidvaan.before.spring;
+
+public class AirtelProvider {
+
+	public void airtleCall() {
+		System.out.println("airtel call");
+	}
+
+	public void airtleSMS() {
+		System.out.println("airtel SMS");
+	}
+}

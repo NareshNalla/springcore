@@ -1,0 +1,8 @@
+public class Utilizer {
+	public static void main(String[] args) {
+		OracleProvider op = new OracleProvider();
+		op.oracleServiceOne();
+		op.oracleServiceTwo();
+		op.oracleServiceThree();
+	}
+}

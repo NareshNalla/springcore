@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="filter_imports;" key="filters_last_used"/>
+	<item value="E:\Resources\database-jars" key="org.eclipse.jdt.ui.lastextjar"/>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="2" key="pageIndex"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="400" key="height"/>
+		<item value="600" key="width"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="7" key="index"/>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="39" key="DIALOG_Y_ORIGIN"/>
+			<item value="220" key="DIALOG_X_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+	<section name="javadoc">
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="false" key="notree"/>
+		<item value="true" key="splitindex"/>
+		<item value="C:\Program Files\Java\jdk1.6.0\bin\javadoc.exe" key="javadoc_command_history"/>
+		<item value="true" key="use"/>
+		<item value="false" key="nonavbar"/>
+		<item value="public" key="access"/>
+		<item value="true" key="version"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="E:\New folder" key="destdir"/>
+		<item value="true" key="author"/>
+		<item value="" key="docletname"/>
+		<item value="1.6" key="source"/>
+		<item value="false" key="openinbrowser"/>
+		<item value="false" key="noindex"/>
+		<item value="" key="docletpath"/>
+		<item value="E:\SekharReddy\Spring\ioc-new-ws\021SpringBeanLifeCycle\javadoc.xml" key="antpath"/>
+		<item value="true" key="fromStandard"/>
+		<section name="projects">
+			<section name="032FactoryMethods">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\032FactoryMethods\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\032FactoryMethods\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="048AutowiringByType">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\048AutowiringByType\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\048AutowiringByType\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="014DrawingConstructorInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\014DrawingConstructorInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\014DrawingConstructorInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="023ExternaliseProperties">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\023ExternaliseProperties\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\023ExternaliseProperties\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="012RestaurantsConstructorInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\012RestaurantsConstructorInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\012RestaurantsConstructorInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="004PrimitiveSetterInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\004PrimitiveSetterInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\004PrimitiveSetterInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="044i18N">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\044i18N\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\044i18N\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="045Messages">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\045Messages\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\045Messages\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="005ObjectConstructorInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\005ObjectConstructorInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\005ObjectConstructorInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="016ConstructorAmbiguity">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\016ConstructorAmbiguity\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\016ConstructorAmbiguity\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="030StaticFactory">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\030StaticFactory\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\030StaticFactory\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="021SpringBeanLifeCycle">
+				<item value="E:\New folder" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\021SpringBeanLifeCycle\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="007TransportaionConstructorInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\007TransportaionConstructorInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\007TransportaionConstructorInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="053AutoScan">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\053AutoScan\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\053AutoScan\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="038MultiConfig01">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\038MultiConfig01\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\038MultiConfig01\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="008TransportaionSetterInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\008TransportaionSetterInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\008TransportaionSetterInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="006ObjectSetterInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\006ObjectSetterInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\006ObjectSetterInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="033BeanLevelInheritence">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\033BeanLevelInheritence\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\033BeanLevelInheritence\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="013RestaurantsSetterInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\013RestaurantsSetterInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\013RestaurantsSetterInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="039MultiConfig02">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\039MultiConfig02\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\039MultiConfig02\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="025DependencyCheck">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\025DependencyCheck\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\025DependencyCheck\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="028LazyInit">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\028LazyInit\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\028LazyInit\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="020SpringContainers">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\020SpringContainers\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\020SpringContainers\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="019BeanScopes">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\019BeanScopes\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\019BeanScopes\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="026DependencyCheck@Required">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\026DependencyCheck@Required\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\026DependencyCheck@Required\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="011LayersSetterInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\011LayersSetterInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\011LayersSetterInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="046ListeningToExistingEvents">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\046ListeningToExistingEvents\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\046ListeningToExistingEvents\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="031NonStaticFactory">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\031NonStaticFactory\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\031NonStaticFactory\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="041PNamespace">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\041PNamespace\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\041PNamespace\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="054JavaConfiguration">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\054JavaConfiguration\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\054JavaConfiguration\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\RemoteSystemsTempFiles\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="010LayersConstructorInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\010LayersConstructorInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\010LayersConstructorInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="050AutowiringByConstructor">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\050AutowiringByConstructor\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\050AutowiringByConstructor\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="029InnerBean">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\029InnerBean\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\029InnerBean\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="042CNamespace">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\042CNamespace\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\042CNamespace\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="027DependsOn">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\027DependsOn\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\027DependsOn\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="034BeanConfigurationLevelInheritence">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\034BeanConfigurationLevelInheritence\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\034BeanConfigurationLevelInheritence\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="035CollectionInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\035CollectionInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\035CollectionInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="043CustomPropertyEditors">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\043CustomPropertyEditors\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\043CustomPropertyEditors\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="052Autowiring@Autowired">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\052Autowiring@Autowired\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\052Autowiring@Autowired\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="002AfterSpring">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\002AfterSpring\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\002AfterSpring\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="017BeanAliasNames">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\017BeanAliasNames\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\017BeanAliasNames\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="003PrimitiveConstructorInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\003PrimitiveConstructorInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\003PrimitiveConstructorInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="047ListeningToCustomEvents">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\047ListeningToCustomEvents\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\047ListeningToCustomEvents\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="018MySingleton">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\018MySingleton\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\018MySingleton\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="055SpringExpressionLang">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\055SpringExpressionLang\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\055SpringExpressionLang\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="001BeforeSpring">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\001BeforeSpring\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\001BeforeSpring\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="037MethodInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\037MethodInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\037MethodInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="036WithoutMethodInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\036WithoutMethodInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\036WithoutMethodInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="015DrawingSetterInjection">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\015DrawingSetterInjection\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\015DrawingSetterInjection\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="022BeanPostProcessor">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\022BeanPostProcessor\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\022BeanPostProcessor\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="049AutowiringByName">
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\049AutowiringByName\doc" key="destdir"/>
+				<item value="E:\SekharReddy\Spring\ioc-new-ws\049AutowiringByName\javadoc.xml" key="antpath"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item value="650" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH"/>
+		<item value="560" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+		<item value="true" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="true" key="group_libraries"/>
+		<item value="false" key="linkWithEditor"/>
+		<item value="2" key="layout"/>
+		<item value="1" key="rootMode"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+		<item value="false" key="updateSimilarElements"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="650" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="560" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item value="false" key="RemoveFinal"/>
+		<item value="false" key="SortOrdering"/>
+	</section>
+</section>

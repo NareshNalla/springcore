@@ -1,0 +1,10 @@
+package com.vidvaan.provider;
+
+import com.vidvaan.contract.DBProvider;
+
+public class MysqlProvider implements DBProvider {
+	@Override
+	public String getConnection() {
+		return "this is mysql connectioin";
+	}
+}

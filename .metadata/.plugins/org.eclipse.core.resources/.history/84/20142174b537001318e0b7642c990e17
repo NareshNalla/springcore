@@ -1,0 +1,17 @@
+package com.vidvaan.spring.service;
+
+import com.vidvaan.spring.dao.DAO;
+
+public class ServiceImpl implements Service {
+	private DAO dao;
+
+	public void setDao(DAO dao) {
+		this.dao = dao;
+	}
+
+	@Override
+	public void serviceMethod() {
+		System.out.println("ServiceImpl.serviceMethod()");
+		dao.daoMethod();
+	}
+}

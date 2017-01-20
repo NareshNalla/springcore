@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<!--  provider configuration -->
+	<bean id="paradiseref" class="com.sekharit.spring.provider.ParadiseRestaurant" />
+	<bean id="bluefoxref" class="com.sekharit.spring.provider.BlueFoxRestaurant" />
+
+	<!-- customer configuration -->
+	
+	<!--
+	<bean id="customer" class="com.sekharit.spring.customer.VegCustomer">
+		</constructor-arg>
+			<ref bean="bluefoxref" />
+		</constructor-arg>
+	</bean>
+	-->
+	
+	<bean id="customer" class="com.sekharit.spring.customer.NonVegCustomer">
+		<constructor-arg>
+			<ref bean="paradiseref" />
+		</constructor-arg>
+	</bean>
+
+</beans>

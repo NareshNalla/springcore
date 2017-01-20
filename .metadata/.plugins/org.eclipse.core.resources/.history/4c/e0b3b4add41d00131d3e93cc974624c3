@@ -1,0 +1,13 @@
+package com.vidvaan.bean;
+
+public class DAOImpl implements DAO {
+	public DAOImpl() {
+		System.out.println("DAOImpl()");
+	}
+
+	@Override
+	public void daoMethod() {
+		System.out.println("DAOImpl.daoMethod()");
+	}
+
+}

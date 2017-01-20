@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="addressId" class="com.sekharit.spring.Address">
+		<property name="hno" value="A/2-234"></property>
+		<property name="city" value="Anantapur"></property>
+		<property name="pincode" value="515154"></property>
+	</bean>
+
+	<!--
+	<bean id="employeeId" class="com.sekharit.spring.Employee">
+		<property name="eno" value="88688"></property>
+		<property name="name" value="sekhar"></property>
+		<property name="address" ref="addressId"></property>
+	</bean>
+	-->
+	<bean id="employeeId" class="com.sekharit.spring.Employee">
+		<property name="eno" value="88688"></property>
+		<property name="name" value="sekhar"></property>
+		<property name="address" >
+			<ref bean="addressId"/>
+		</property>
+	</bean>
+</beans>

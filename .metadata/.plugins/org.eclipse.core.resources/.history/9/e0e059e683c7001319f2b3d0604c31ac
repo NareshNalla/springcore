@@ -1,0 +1,9 @@
+package com.vidvaan.before.spring;
+
+public class NetworkUtilizer {
+	public static void main(String[] args) {
+		AirtelProvider provider = new AirtelProvider();
+		provider.airtleCall();
+		provider.airtleSMS();
+	}
+}

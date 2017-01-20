@@ -1,0 +1,19 @@
+public class Utilizer {
+	public static void main(String[] args) {
+//		OracleProvider op = new OracleProvider();
+//		String con = op.getOracleConnection();
+//		System.out.println(con);
+		
+//		MysqlProvider mp = new MysqlProvider();
+//		String con = mp.getMysqlConnection();
+//		System.out.println(con);
+//		mp.getMysqlService1();
+		
+		DBProvider dbProvider = new OracleProvider();
+		dbProvider.getAnotherThing();
+		dbProvider.getSomething();
+		String con = dbProvider.getConnection();
+		System.out.println(con);
+
+	}
+}

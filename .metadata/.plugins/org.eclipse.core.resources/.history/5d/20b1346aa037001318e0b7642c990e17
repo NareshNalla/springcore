@@ -1,0 +1,14 @@
+public class OracleProvider {
+	public void oracleServiceOne() {
+		System.out.println("OracleProvider.oracleServiceOne()");
+	}
+
+	public void oracleServiceTwo() {
+		System.out.println("OracleProvider.oracleServiceTwo()");
+	}
+
+	public void oracleServiceThree() {
+		System.out.println("OracleProvider.oracleServiceThree()");
+	}
+
+}

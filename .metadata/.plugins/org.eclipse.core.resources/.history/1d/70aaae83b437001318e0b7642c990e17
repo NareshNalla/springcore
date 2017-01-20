@@ -1,0 +1,5 @@
+package com.vidvaan.spring.controller;
+
+public class ControllerImpl {
+
+}

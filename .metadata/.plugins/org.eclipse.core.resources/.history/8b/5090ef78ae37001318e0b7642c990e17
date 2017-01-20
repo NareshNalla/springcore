@@ -1,0 +1,24 @@
+package com.vidvaan.spring.injection;
+
+public class GreetingBean {
+	private String myname;
+
+	public GreetingBean() {
+		System.out.println("GreetingBean()");
+	}
+
+	public GreetingBean(String name) {
+		System.out.println("GreetingBean(String name)");
+		this.myname = name;
+	}
+
+	public void setName(String name) {
+		System.out.println("setName(String name)");
+		this.myname = name;
+	}
+
+	public void displayInjectedValue() {
+		System.out.println("Injected name : " + myname);
+	}
+
+}

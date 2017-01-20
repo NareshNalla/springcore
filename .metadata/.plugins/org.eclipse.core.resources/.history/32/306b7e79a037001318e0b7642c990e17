@@ -1,0 +1,15 @@
+
+public class MysqlProivder {
+	public void mysqlServiceOne() {
+		System.out.println("MysqlProivder.mysqlServiceOne()");
+	}
+
+	public void mysqlServiceTwo() {
+		System.out.println("MysqlProivder.mysqlServiceTwo()");
+	}
+
+	public void mysqlServiceThree() {
+		System.out.println("MysqlProivder.mysqlServiceThree()");
+	}
+
+}

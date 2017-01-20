@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+	
+	<bean id="daoRef" class="com.vidvaan.spring.dao.DAOImpl" >
+		<propery name="userName" value="scott"	 />
+		<propery name="password" value="tiger"	 />
+	</bean>
+	
+	<bean id="serviceRef" class="com.vidvaan.spring.service.ServiceImpl" >
+		<propery name="dao" ref="daoRef" ></propery>
+	</bean>
+	
+	<bean id="controllerRef" class="com.vidvaan.spring.controller.ControllerImpl">
+		<propery name="" ></propery>
+	</bean>
+	
+</beans>
